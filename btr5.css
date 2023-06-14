@@ -1,0 +1,16 @@
+body{
+    background-image: url(busvstrain.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+h2{
+    text-shadow: 2px 2px 2px white;
+}
+h3{
+    margin-left:70%;
+    margin-top:15%;
+    text-shadow: 2px 2px 2px white;
+}
+a{
+    text-decoration: none;
+}

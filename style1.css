@@ -1,0 +1,57 @@
+.first{
+    
+    display:flex;
+    justify-content: space-between;
+    padding:100px;
+    margin:auto;
+    margin-left:2%;
+    margin-right:2%;
+
+}
+img{
+    height:180px;
+    width:180px;
+    border:2px solid black;
+    border-radius:50%;
+}
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    position:sticky;
+    background-color:red;
+    height:100%;
+    width:100%;
+}
+html{
+    background-image: url(bus.jpg);
+    background-repeat: no-repeat;
+    background-size:150%;
+}
+h2{
+    color:crimson;
+}
+.second{
+    margin-left:-2%;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: -5%;
+}
+a{
+    text-decoration: none;
+}
+img:hover {
+    
+    animation: move 1000s ease;
+    animation-iteration-count: one;
+    box-shadow: 0 0 2px 2px red;
+  }
+  
+  @keyframes move {
+    0% { width:195px;
+    height:195px;
+     }
+    50% { width: 195px; 
+    height:195px; }
+    100% { width:195px; 
+    height:195px;}
+  }

@@ -1,0 +1,30 @@
+img{
+    margin-left:46%;
+}
+.pic{
+    background-color: lightgreen;
+    transition:background 1s linear;
+    background-size: cover;
+    height:650px;
+    width:1400px;
+}
+.pic:hover{
+    background-color: lightgreen;
+    animation: picture 0.5s infinite;
+}
+@keyframes picture {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: lightgreen;
+    }
+    
+    100%{
+        background-color: rgb(0, 153, 255);
+    }
+}
+a{
+    text-decoration: none;
+    font-family:sans-serif;
+}

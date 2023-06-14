@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Confirm your tickets</title>
+    <link rel="stylesheet" href="o.css">
+</head>
+<body>
+    <form action="order.html">
+        <center><h3>To confirm your tickets</h3></center>
+        <center>First Name<br><input type="text" id="firstname" placeholder="Enter your first name" required></center><br>
+        <center>Last Name<br><input type="text" id="lastname" placeholder="Enter your last name" required></center><br>
+        <center><label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option value="select gender">Select the Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        </center><br>
+        <center>Mobile Number<br><input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </center><br>
+        <center>Email<br><input type="email" id="username" placeholder="Enter your email" required></center><br>
+        <center><label for="payment">Payment</label>
+            <select id="payment" name="payment">
+                <option value="select the payment method">Select the payment method</option>
+                <option value="debit">Debit Card</option>
+                <option value="credit">Credit Card</option>
+                <option value="upi">UPI</option>
+                <option value="other">Other</option>
+            </select>
+            </center><br>
+        <center><input type="submit" value="Confirm"></center>
+
+    </form>
+</body>
+</html>

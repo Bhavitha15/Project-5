@@ -1,0 +1,46 @@
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    position:sticky;
+    background-color:red;
+    height:100%;
+    width:100%;
+}
+.first{
+    border:2px solid black;
+    display:flex;
+}
+.second{
+    border:2px solid black;
+    display:flex;
+}
+.third{
+    border:2px solid black;
+    display:flex;
+}
+.fourth{
+    border:2px solid black;
+    display:flex;
+}
+body{
+    background-image: url(train1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:grey;
+    background-blend-mode: multiply;
+    color:skyblue;
+}
+p{
+    margin-left:20%;
+    margin-top: 5%;
+}
+h3{
+    margin-left:50%;
+}
+button{
+    background-color: greenyellow;
+}
+a{
+    text-decoration: none;
+    color:aqua;
+}

@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+h3{
+    color: red;;
+}
+img{
+    height:15%;
+    width:15%;
+    border-radius: 50%;
+    border: 2px solid  black;
+}
+html{
+    background-color:cyan;
+}
+a{
+    text-decoration: none;
+}

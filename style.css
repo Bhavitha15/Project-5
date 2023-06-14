@@ -1,0 +1,63 @@
+.header{
+    float:right;
+    height:55px;
+    font-size:xx-large;
+    display: flex;
+}
+.pic{
+    background: url(https://previews.123rf.com/images/zeinousstudio/zeinousstudio2005/zeinousstudio200500008/146862981-time-to-travel-vector-concept-design-time-to-travel-text-in-globe-with-travelling-and-world-country.jpg);
+    height:700px;
+    width:1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 5s linear;
+}
+.pic:hover{
+    background: url(https://wallpapers.com/images/featured/2ygv7ssy2k0lxlzu.jpg);
+    height:700px;
+    width:1500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:picture 3s infinite;
+}
+@keyframes picture {
+    0%{
+        background: url(https://previews.123rf.com/images/gustavofrazao/gustavofrazao1510/gustavofrazao151011366/62250669-time-to-travel-sign-with-arrow-on-beach-background.jpg);
+        height:700px;
+        width:1500px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background:url(https://learn.corel.com/wp-content/uploads/2022/01/alberta-2297204_1280.jpg);
+        height:700px;
+        width:1500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background: url(https://wallpapers.com/images/featured/2ygv7ssy2k0lxlzu.jpg);
+        height:700px;
+        width:1500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.txt{
+    margin-top:22%;
+    margin-left: 35%;
+    color:yellow;
+    position:absolute;
+    font-size: xx-large;
+}
+.nav{
+    padding:20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+hr{
+    margin-top:25px;
+    height:30px;
+}
